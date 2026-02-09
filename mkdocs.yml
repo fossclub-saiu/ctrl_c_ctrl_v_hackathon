@@ -1,0 +1,68 @@
+site_name: Ctrl C + Ctrl V Hackathon
+site_description: Problem Statements & Guidelines for the Ctrl C + Ctrl V Hackathon
+site_author: FOSS Club
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Rules: rules.md
+  - Submission: submission.md
+  - Problem Statements:
+    - Level 1 (First Year): levels/level-1.md
+    - Level 2 (Second Year): levels/level-2.md
+    - Level 3 (Third Year): levels/level-3.md
+  - Judging Criteria: judging.md
+  - Technical Guidelines: technical.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com
+    - icon: fontawesome/solid/envelope
+      link: mailto:fossclub@saiuniversity.edu.in
