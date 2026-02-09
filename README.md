@@ -16,18 +16,18 @@
 
 All problem statements, rules, submission guidelines, and judging criteria are available on our documentation site:
 
-👉 **[View Full Documentation](https://your-github-pages-url.github.io/ctrl-c_ctrl-v_hackathon/)**
+👉 **[View Full Documentation](https://fossclub-saiu.github.io/ctrl_c_ctrl_v_hackathon/)**
 
 ## 📋 Quick Links
 
-- [Rules & Guidelines](https://your-github-pages-url.github.io/ctrl-c_ctrl-v_hackathon/rules/)
-- [Submission Requirements](https://your-github-pages-url.github.io/ctrl-c_ctrl-v_hackathon/submission/)
-- [Level 1 Problems (First Year)](https://your-github-pages-url.github.io/ctrl-c_ctrl-v_hackathon/levels/level-1/)
-- [Level 2 Problems (Second Year)](https://your-github-pages-url.github.io/ctrl-c_ctrl-v_hackathon/levels/level-2/)
-- [Level 3 Problems (Third Year)](https://your-github-pages-url.github.io/ctrl-c_ctrl-v_hackathon/levels/level-3/)
-- [Judging Criteria](https://your-github-pages-url.github.io/ctrl-c_ctrl-v_hackathon/judging/)
-- [Technical Guidelines](https://your-github-pages-url.github.io/ctrl-c_ctrl-v_hackathon/technical/)
-- [FAQ](https://your-github-pages-url.github.io/ctrl-c_ctrl-v_hackathon/faq/)
+- [Rules & Guidelines](https://fossclub-saiu.github.io/ctrl_c_ctrl_v_hackathon/rules/)
+- [Submission Requirements](https://fossclub-saiu.github.io/ctrl_c_ctrl_v_hackathon/submission/)
+- [Level 1 Problems (First Year)](https://fossclub-saiu.github.io/ctrl_c_ctrl_v_hackathon/levels/level-1/)
+- [Level 2 Problems (Second Year)](https://fossclub-saiu.github.io/ctrl_c_ctrl_v_hackathon/levels/level-2/)
+- [Level 3 Problems (Third Year)](https://fossclub-saiu.github.io/ctrl_c_ctrl_v_hackathon/levels/level-3/)
+- [Judging Criteria](https://fossclub-saiu.github.io/ctrl_c_ctrl_v_hackathon/judging/)
+- [Technical Guidelines](https://fossclub-saiu.github.io/ctrl_c_ctrl_v_hackathon/technical/)
+- [FAQ](https://fossclub-saiu.github.io/ctrl_c_ctrl_v_hackathon/faq/)
 
 ## 📤 Submission Process
 

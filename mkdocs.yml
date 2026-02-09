@@ -63,6 +63,6 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com
+      link: https://github.com/fossclub-saiu/ctrl_c_ctrl_v_hackathon/
     - icon: fontawesome/solid/envelope
       link: mailto:fossclub@saiuniversity.edu.in
