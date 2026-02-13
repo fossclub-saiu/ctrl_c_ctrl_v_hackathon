@@ -1,0 +1,3042 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Problem Statements & Guidelines for the Ctrl C + Ctrl V Hackathon">
+      
+      
+        <meta name="author" content="FOSS Club">
+      
+      
+      
+        <link rel="prev" href="../level-2/">
+      
+      
+        <link rel="next" href="../../judging/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Level 3 (Third Year) - Ctrl C + Ctrl V Hackathon</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#level-3-third-year-students" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Ctrl C + Ctrl V Hackathon" class="md-header__button md-logo" aria-label="Ctrl C + Ctrl V Hackathon" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ctrl C + Ctrl V Hackathon
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Level 3 (Third Year)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../rules/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Rules
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../submission/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Submission
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../level-1/" class="md-tabs__link">
+          
+  
+  
+  Problem Statements
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../judging/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Judging Criteria
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../judges-guide/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Judges Guide
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../technical/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Technical Guidelines
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../faq/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Ctrl C + Ctrl V Hackathon" class="md-nav__button md-logo" aria-label="Ctrl C + Ctrl V Hackathon" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Ctrl C + Ctrl V Hackathon
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../submission/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Submission
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problem Statements
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Problem Statements
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 1 (First Year)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 2 (Second Year)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 3 (Third Year)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 3 (Third Year)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#technical-milestones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Milestones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-31-secure-real-time-campus-chat-collaboration-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.1: Secure Real-Time Campus Chat &amp; Collaboration Platform
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.1: Secure Real-Time Campus Chat &amp; Collaboration Platform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-32-url-safety-analyzer-phishing-awareness-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.2: URL Safety Analyzer &amp; Phishing Awareness Tool
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.2: URL Safety Analyzer &amp; Phishing Awareness Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-33-ai-powered-placement-preparation-interview-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.3: AI-Powered Placement Preparation &amp; Interview Tracker
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.3: AI-Powered Placement Preparation &amp; Interview Tracker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#application-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📋 Application Tracker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interview-experience-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💼 Interview Experience Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-mock-interview-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🤖 AI Mock Interview System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparation-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📚 Preparation Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analytics-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Analytics Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-34-automated-document-certificate-generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.4: Automated Document &amp; Certificate Generator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.4: Automated Document &amp; Certificate Generator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#template-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📄 Template Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bulk-data-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Bulk Data Input
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎨 Document Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qr-code-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📱 QR Code Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📧 Distribution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔐 Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-35-multi-source-campus-announcement-aggregator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.5: Multi-Source Campus Announcement Aggregator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.5: Multi-Source Campus Announcement Aggregator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multi-source-scraping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🌐 Multi-Source Scraping
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🤖 AI Processing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unified-feed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📱 Unified Feed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔔 Smart Notifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Analytics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-36-open-innovation-level-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.6: Open Innovation (Level 3)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.6: Open Innovation (Level 3)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation Focus
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../judging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Judging Criteria
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../judges-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Judges Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../technical/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Guidelines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#technical-milestones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Milestones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-31-secure-real-time-campus-chat-collaboration-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.1: Secure Real-Time Campus Chat &amp; Collaboration Platform
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.1: Secure Real-Time Campus Chat &amp; Collaboration Platform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-32-url-safety-analyzer-phishing-awareness-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.2: URL Safety Analyzer &amp; Phishing Awareness Tool
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.2: URL Safety Analyzer &amp; Phishing Awareness Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-33-ai-powered-placement-preparation-interview-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.3: AI-Powered Placement Preparation &amp; Interview Tracker
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.3: AI-Powered Placement Preparation &amp; Interview Tracker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#application-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📋 Application Tracker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interview-experience-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💼 Interview Experience Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-mock-interview-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🤖 AI Mock Interview System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparation-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📚 Preparation Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analytics-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Analytics Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-34-automated-document-certificate-generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.4: Automated Document &amp; Certificate Generator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.4: Automated Document &amp; Certificate Generator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#template-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📄 Template Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bulk-data-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Bulk Data Input
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎨 Document Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qr-code-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📱 QR Code Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📧 Distribution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔐 Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-35-multi-source-campus-announcement-aggregator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.5: Multi-Source Campus Announcement Aggregator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.5: Multi-Source Campus Announcement Aggregator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multi-source-scraping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🌐 Multi-Source Scraping
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🤖 AI Processing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unified-feed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📱 Unified Feed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔔 Smart Notifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Analytics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-36-open-innovation-level-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 3.6: Open Innovation (Level 3)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 3.6: Open Innovation (Level 3)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation Focus
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="level-3-third-year-students">Level 3: Third Year Students<a class="headerlink" href="#level-3-third-year-students" title="Permanent link">&para;</a></h1>
+<p><strong>Focus:</strong> Real-time features, external API integration, security, complex system design, and advanced NLP/ML.</p>
+<h2 id="technical-milestones">Technical Milestones<a class="headerlink" href="#technical-milestones" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[x] Real-time communication (WebSockets)</li>
+<li>[x] Security implementation</li>
+<li>[x] Advanced NLP/ML integration</li>
+<li>[x] Scalable architecture</li>
+<li>[x] External API integration</li>
+<li>[x] Background processing</li>
+<li>[x] Complex multi-module systems</li>
+</ul>
+<hr />
+<h2 id="problem-statement-31-secure-real-time-campus-chat-collaboration-platform">Problem Statement 3.1: Secure Real-Time Campus Chat &amp; Collaboration Platform<a class="headerlink" href="#problem-statement-31-secure-real-time-campus-chat-collaboration-platform" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> Communication + Security</p>
+<h3 id="problem-description">Problem Description<a class="headerlink" href="#problem-description" title="Permanent link">&para;</a></h3>
+<p>Build a Slack-like real-time collaboration platform for campus use with intelligent content moderation and sensitive data protection.</p>
+<h3 id="core-features">Core Features<a class="headerlink" href="#core-features" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>💬 Real-time messaging</td>
+<td>WebSocket/Socket.io implementation</td>
+</tr>
+<tr>
+<td>👥 User authentication</td>
+<td>Session management</td>
+</tr>
+<tr>
+<td>🗂️ Channel organization</td>
+<td>Departments, clubs, courses, projects</td>
+</tr>
+<tr>
+<td>👤 Chat types</td>
+<td>One-on-one and group chat</td>
+</tr>
+<tr>
+<td>📁 File sharing</td>
+<td>With security scanning</td>
+</tr>
+<tr>
+<td>🔒 PII detection</td>
+<td>Phone numbers, emails, Aadhaar, credit cards, addresses</td>
+</tr>
+<tr>
+<td>🤖 Auto-sanitization</td>
+<td>Warning before sending sensitive data</td>
+</tr>
+<tr>
+<td>🚫 Content moderation</td>
+<td>Profanity and hate speech detection</td>
+</tr>
+<tr>
+<td>🔐 Encryption</td>
+<td>Message encryption in transit</td>
+</tr>
+<tr>
+<td>📜 Message history</td>
+<td>With search</td>
+</tr>
+<tr>
+<td>🟢 Status</td>
+<td>Online/offline indicators</td>
+</tr>
+<tr>
+<td>✅ Read receipts</td>
+<td>Message delivery confirmation</td>
+</tr>
+<tr>
+<td>📌 Pin messages</td>
+<td>Important message highlighting</td>
+</tr>
+<tr>
+<td>🔔 Notifications</td>
+<td>Customizable alerts</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technical-requirements">Technical Requirements<a class="headerlink" href="#technical-requirements" title="Permanent link">&para;</a></h3>
+<ul>
+<li>WebSocket server implementation</li>
+<li>Encryption implementation (at least in-transit)</li>
+<li>NLP for content detection (regex + ML)</li>
+<li>Real-time communication protocol</li>
+<li>Database for message persistence</li>
+<li>Security best practices</li>
+<li>Rate limiting and spam prevention</li>
+</ul>
+<h3 id="advanced-features">Advanced Features<a class="headerlink" href="#advanced-features" title="Permanent link">&para;</a></h3>
+<ul>
+<li>End-to-end encryption</li>
+<li>Voice/video call integration</li>
+<li>Screen sharing</li>
+<li>Self-destructing messages</li>
+<li>Admin moderation dashboard</li>
+<li>Message reactions and threads</li>
+<li>Code syntax highlighting</li>
+<li>Markdown support</li>
+</ul>
+<h3 id="expected-deliverables">Expected Deliverables<a class="headerlink" href="#expected-deliverables" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Functional real-time chat system</li>
+<li>Working PII detection and masking</li>
+<li>Minimum 5 channels with 20+ users</li>
+<li>Message search functionality</li>
+<li>File sharing capability</li>
+</ul>
+<h3 id="bonus-features">Bonus Features<a class="headerlink" href="#bonus-features" title="Permanent link">&para;</a></h3>
+<ul>
+<li>AI-powered message summarization</li>
+<li>Smart reply suggestions</li>
+<li>Language translation</li>
+<li>Mobile app version</li>
+<li>Offline message queue</li>
+<li>Message editing and deletion</li>
+<li>Bot integration framework</li>
+</ul>
+<hr />
+<h2 id="problem-statement-32-url-safety-analyzer-phishing-awareness-tool">Problem Statement 3.2: URL Safety Analyzer &amp; Phishing Awareness Tool<a class="headerlink" href="#problem-statement-32-url-safety-analyzer-phishing-awareness-tool" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> Security + ML</p>
+<h3 id="problem-description_1">Problem Description<a class="headerlink" href="#problem-description_1" title="Permanent link">&para;</a></h3>
+<p>Phishing attacks are increasingly sophisticated. Build a comprehensive URL safety analyzer that evaluates links using multiple detection techniques and educates users about online safety.</p>
+<h3 id="core-features_1">Core Features<a class="headerlink" href="#core-features_1" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🔗 URL submission</td>
+<td>Analysis interface</td>
+</tr>
+<tr>
+<td>🔍 Pattern-based analysis</td>
+<td>URL structure, keywords, domain age, HTTPS, complexity, homograph detection</td>
+</tr>
+<tr>
+<td>🤖 ML classification</td>
+<td>Feature extraction, phishing prediction, confidence scoring</td>
+</tr>
+<tr>
+<td>🌐 Network validation</td>
+<td>DNS lookup, WHOIS info, SSL verification, IP geolocation</td>
+</tr>
+<tr>
+<td>📋 Blacklist checking</td>
+<td>Known phishing databases, Google Safe Browsing API</td>
+</tr>
+<tr>
+<td>📊 Risk scoring</td>
+<td>0-100 with detailed explanation</td>
+</tr>
+<tr>
+<td>📸 Visual detection</td>
+<td>Screenshot comparison for spoofed websites</td>
+</tr>
+<tr>
+<td>📧 Email analyzer</td>
+<td>Suspicious language, urgency detection, sender verification</td>
+</tr>
+<tr>
+<td>🎓 Educational tips</td>
+<td>Based on detected risks</td>
+</tr>
+<tr>
+<td>📋 Reporting system</td>
+<td>User reporting for new threats</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technical-requirements_1">Technical Requirements<a class="headerlink" href="#technical-requirements_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>ML model training (use PhishTank, OpenPhish datasets)</li>
+<li>Feature extraction algorithms</li>
+<li>External API integration (VirusTotal, Google Safe Browsing, WHOIS)</li>
+<li>NLP for email content analysis</li>
+<li>Image comparison algorithms</li>
+<li>Database for threat intelligence</li>
+</ul>
+<h3 id="advanced-features_1">Advanced Features<a class="headerlink" href="#advanced-features_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Real-time protection browser extension</li>
+<li>Chrome/Firefox extension</li>
+<li>Automated threat database updates</li>
+<li>Historical threat analysis</li>
+<li>API for third-party integration</li>
+<li>Phishing simulation tool for training</li>
+</ul>
+<h3 id="expected-deliverables_1">Expected Deliverables<a class="headerlink" href="#expected-deliverables_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Functional URL analyzer with risk scoring</li>
+<li>Working ML-based detection (minimum 80% accuracy on test set)</li>
+<li>Integration with at least 2 external APIs</li>
+<li>Educational component with safety tips</li>
+<li>Detailed risk report generation</li>
+</ul>
+<h3 id="bonus-features_1">Bonus Features<a class="headerlink" href="#bonus-features_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Browser extension with real-time protection</li>
+<li>Email attachment scanner</li>
+<li>QR code safety checker</li>
+<li>Bulk URL analysis</li>
+<li>Threat intelligence dashboard</li>
+<li>Monthly security newsletter generator</li>
+</ul>
+<hr />
+<h2 id="problem-statement-33-ai-powered-placement-preparation-interview-tracker">Problem Statement 3.3: AI-Powered Placement Preparation &amp; Interview Tracker<a class="headerlink" href="#problem-statement-33-ai-powered-placement-preparation-interview-tracker" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> Career + AI</p>
+<h3 id="problem-description_2">Problem Description<a class="headerlink" href="#problem-description_2" title="Permanent link">&para;</a></h3>
+<p>Placement preparation is scattered across multiple platforms and resources. Build a comprehensive platform that combines application tracking, interview preparation, shared experiences, and AI-powered mock interviews.</p>
+<h3 id="core-features_2">Core Features<a class="headerlink" href="#core-features_2" title="Permanent link">&para;</a></h3>
+<h4 id="application-tracker">📋 Application Tracker<a class="headerlink" href="#application-tracker" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Status tracking</td>
+<td>Applied, OA, interview, offer, rejected</td>
+</tr>
+<tr>
+<td>Timeline visualization</td>
+<td>Visual progress</td>
+</tr>
+<tr>
+<td>Document management</td>
+<td>Resume versions, cover letters</td>
+</tr>
+<tr>
+<td>Deadline tracking</td>
+<td>Important dates</td>
+</tr>
+<tr>
+<td>Notes &amp; reminders</td>
+<td>Follow-up tracking</td>
+</tr>
+</tbody>
+</table>
+<h4 id="interview-experience-database">💼 Interview Experience Database<a class="headerlink" href="#interview-experience-database" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shared experiences</td>
+<td>Student submissions</td>
+</tr>
+<tr>
+<td>Question bank</td>
+<td>Company-wise</td>
+</tr>
+<tr>
+<td>Difficulty ratings</td>
+<td>Easy to hard</td>
+</tr>
+<tr>
+<td>Round breakdown</td>
+<td>Interview stages</td>
+</tr>
+<tr>
+<td>Voting system</td>
+<td>Upvote/downvote</td>
+</tr>
+<tr>
+<td>Search &amp; filter</td>
+<td>By company, role, difficulty</td>
+</tr>
+</tbody>
+</table>
+<h4 id="ai-mock-interview-system">🤖 AI Mock Interview System<a class="headerlink" href="#ai-mock-interview-system" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Technical Interviews</td>
+<td>Coding problems, real-time evaluation, hints, solution discussion</td>
+</tr>
+<tr>
+<td>HR/Behavioral</td>
+<td>AI-driven questions, answer evaluation, STAR method guidance</td>
+</tr>
+<tr>
+<td>Video Analysis (Optional)</td>
+<td>Speech clarity, filler words, pace analysis</td>
+</tr>
+</tbody>
+</table>
+<h4 id="preparation-resources">📚 Preparation Resources<a class="headerlink" href="#preparation-resources" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Company-specific preparation guides</li>
+<li>Topic-wise study materials</li>
+<li>DSA roadmap</li>
+<li>System design resources</li>
+</ul>
+<h4 id="analytics-dashboard">📊 Analytics Dashboard<a class="headerlink" href="#analytics-dashboard" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Progress tracking</li>
+<li>Strengths and weaknesses</li>
+<li>Time spent per topic</li>
+<li>Mock interview performance trends</li>
+</ul>
+<h3 id="technical-requirements_2">Technical Requirements<a class="headerlink" href="#technical-requirements_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Complex database schema</li>
+<li>AI API integration for interview simulation</li>
+<li>Code execution sandbox (Docker/online judge API)</li>
+<li>Real-time code evaluation</li>
+<li>NLP for answer assessment</li>
+<li>Data visualization</li>
+<li>Optional: Speech-to-text for video analysis</li>
+</ul>
+<h3 id="advanced-features_2">Advanced Features<a class="headerlink" href="#advanced-features_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Peer mock interview matching</li>
+<li>Salary predictor based on skills and company</li>
+<li>Company culture fit analyzer</li>
+<li>Resume-JD match percentage</li>
+<li>Automated job application from tracker</li>
+</ul>
+<h3 id="expected-deliverables_2">Expected Deliverables<a class="headerlink" href="#expected-deliverables_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Functional application tracker with 10+ sample applications</li>
+<li>Interview experience database with 20+ entries</li>
+<li>Working AI mock interview system (both technical and HR)</li>
+<li>Code execution for at least Python and Java</li>
+<li>Analytics dashboard</li>
+</ul>
+<h3 id="bonus-features_2">Bonus Features<a class="headerlink" href="#bonus-features_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Integration with LinkedIn/job portals</li>
+<li>Automated job aggregation</li>
+<li>Chrome extension for quick experience posting</li>
+<li>Mobile app for on-the-go tracking</li>
+<li>Offer comparison tool</li>
+<li>Negotiation tips based on offer data</li>
+</ul>
+<hr />
+<h2 id="problem-statement-34-automated-document-certificate-generator">Problem Statement 3.4: Automated Document &amp; Certificate Generator<a class="headerlink" href="#problem-statement-34-automated-document-certificate-generator" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> Automation + Utility</p>
+<h3 id="problem-description_3">Problem Description<a class="headerlink" href="#problem-description_3" title="Permanent link">&para;</a></h3>
+<p>Generating hundreds of personalized certificates, ID cards, or letters manually is time-consuming and error-prone. Build a bulk document generator with template support, QR verification, and background processing.</p>
+<h3 id="core-features_3">Core Features<a class="headerlink" href="#core-features_3" title="Permanent link">&para;</a></h3>
+<h4 id="template-management">📄 Template Management<a class="headerlink" href="#template-management" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Custom templates</td>
+<td>Upload PDF, DOCX, images</td>
+</tr>
+<tr>
+<td>Visual editor</td>
+<td>Drag-and-drop</td>
+</tr>
+<tr>
+<td>Placeholder system</td>
+<td><code>{{name}}</code>, <code>{{date}}</code>, etc.</td>
+</tr>
+<tr>
+<td>Multiple types</td>
+<td>Certificates, ID cards, letters</td>
+</tr>
+</tbody>
+</table>
+<h4 id="bulk-data-input">📊 Bulk Data Input<a class="headerlink" href="#bulk-data-input" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CSV/Excel upload</td>
+<td>With data validation</td>
+</tr>
+<tr>
+<td>Manual entry</td>
+<td>Alternative interface</td>
+</tr>
+<tr>
+<td>Data preview</td>
+<td>Before generation</td>
+</tr>
+</tbody>
+</table>
+<h4 id="document-generation">🎨 Document Generation<a class="headerlink" href="#document-generation" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Merge data</td>
+<td>With templates</td>
+</tr>
+<tr>
+<td>Generate PDFs</td>
+<td>Personalized documents</td>
+</tr>
+<tr>
+<td>Background processing</td>
+<td>For 100+ documents</td>
+</tr>
+<tr>
+<td>Progress tracking</td>
+<td>Real-time status</td>
+</tr>
+</tbody>
+</table>
+<h4 id="qr-code-integration">📱 QR Code Integration<a class="headerlink" href="#qr-code-integration" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unique QR codes</td>
+<td>Per document</td>
+</tr>
+<tr>
+<td>Verification system</td>
+<td>QR-based authenticity check</td>
+</tr>
+<tr>
+<td>Public portal</td>
+<td>Scan to verify</td>
+</tr>
+</tbody>
+</table>
+<h4 id="distribution">📧 Distribution<a class="headerlink" href="#distribution" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Email distribution</td>
+<td>Automated sending</td>
+</tr>
+<tr>
+<td>Batch download</td>
+<td>ZIP file</td>
+</tr>
+<tr>
+<td>Individual links</td>
+<td>Download links</td>
+</tr>
+</tbody>
+</table>
+<h4 id="security">🔐 Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tampering prevention</td>
+<td>Document integrity</td>
+</tr>
+<tr>
+<td>Digital signature</td>
+<td>Support</td>
+</tr>
+<tr>
+<td>Verification database</td>
+<td>Records</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technical-requirements_3">Technical Requirements<a class="headerlink" href="#technical-requirements_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>PDF generation and manipulation</li>
+<li>QR code generation and scanning</li>
+<li>Background job processing (Celery, Bull, etc.)</li>
+<li>Template parsing engine</li>
+<li>Bulk email system</li>
+<li>Database for verification records</li>
+</ul>
+<h3 id="advanced-features_3">Advanced Features<a class="headerlink" href="#advanced-features_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Google Drive integration for storage</li>
+<li>WhatsApp distribution</li>
+<li>Multi-language support</li>
+<li>Version control for templates</li>
+<li>Analytics (generated count, verification count)</li>
+</ul>
+<h3 id="expected-deliverables_3">Expected Deliverables<a class="headerlink" href="#expected-deliverables_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Functional bulk generator with 2+ template types</li>
+<li>QR verification system</li>
+<li>Background processing for 100+ documents</li>
+<li>Email distribution working</li>
+<li>Public verification portal</li>
+</ul>
+<h3 id="bonus-features_3">Bonus Features<a class="headerlink" href="#bonus-features_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Blockchain-based verification</li>
+<li>Mobile app for QR scanning</li>
+<li>Template marketplace</li>
+<li>AI-powered content suggestions</li>
+<li>Watermark support</li>
+<li>Batch editing interface</li>
+</ul>
+<hr />
+<h2 id="problem-statement-35-multi-source-campus-announcement-aggregator">Problem Statement 3.5: Multi-Source Campus Announcement Aggregator<a class="headerlink" href="#problem-statement-35-multi-source-campus-announcement-aggregator" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> Utility + AI + Web Scraping</p>
+<h3 id="problem-description_4">Problem Description<a class="headerlink" href="#problem-description_4" title="Permanent link">&para;</a></h3>
+<p>Campus announcements are scattered across websites, social media, and multiple platforms. Build an intelligent aggregator that scrapes data from various sources and creates a unified feed with AI-generated summaries.</p>
+<h3 id="core-features_4">Core Features<a class="headerlink" href="#core-features_4" title="Permanent link">&para;</a></h3>
+<h4 id="multi-source-scraping">🌐 Multi-Source Scraping<a class="headerlink" href="#multi-source-scraping" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>College website</td>
+<td>Official announcements</td>
+</tr>
+<tr>
+<td>Social media</td>
+<td>Instagram, Twitter/X, Facebook</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>College circulars</td>
+</tr>
+<tr>
+<td>RSS feeds</td>
+<td>Feed integration</td>
+</tr>
+<tr>
+<td>Departments</td>
+<td>Specific scraping</td>
+</tr>
+</tbody>
+</table>
+<h4 id="ai-processing">🤖 AI Processing<a class="headerlink" href="#ai-processing" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Duplicate detection</td>
+<td>Across sources</td>
+</tr>
+<tr>
+<td>Categorization</td>
+<td>Academic, event, placement, sports, etc.</td>
+</tr>
+<tr>
+<td>Daily digest</td>
+<td>AI-summarized</td>
+</tr>
+<tr>
+<td>Sentiment analysis</td>
+<td>Tone detection</td>
+</tr>
+<tr>
+<td>Priority detection</td>
+<td>Urgent vs informational</td>
+</tr>
+</tbody>
+</table>
+<h4 id="unified-feed">📱 Unified Feed<a class="headerlink" href="#unified-feed" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Multiple views</td>
+<td>Chronological and category-wise</td>
+</tr>
+<tr>
+<td>Search &amp; filter</td>
+<td>Find specific announcements</td>
+</tr>
+<tr>
+<td>Bookmarks</td>
+<td>Save for later</td>
+</tr>
+<tr>
+<td>Sharing</td>
+<td>Share announcements</td>
+</tr>
+</tbody>
+</table>
+<h4 id="smart-notifications">🔔 Smart Notifications<a class="headerlink" href="#smart-notifications" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Personalized</td>
+<td>Based on year/department</td>
+</tr>
+<tr>
+<td>Keyword alerts</td>
+<td>Custom triggers</td>
+</tr>
+<tr>
+<td>Daily summary</td>
+<td>Email digest</td>
+</tr>
+</tbody>
+</table>
+<h4 id="analytics">📊 Analytics<a class="headerlink" href="#analytics" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Source contribution</td>
+<td>Which sources post most</td>
+</tr>
+<tr>
+<td>Category trends</td>
+<td>Popular topics</td>
+</tr>
+<tr>
+<td>Engagement metrics</td>
+<td>User interaction</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technical-requirements_4">Technical Requirements<a class="headerlink" href="#technical-requirements_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Web scraping (BeautifulSoup, Scrapy, Playwright)</li>
+<li>API integration for social media</li>
+<li>NLP for content processing</li>
+<li>AI API for summarization</li>
+<li>Background scheduling (cron jobs)</li>
+<li>Duplicate detection algorithms</li>
+<li>Database for storing announcements</li>
+</ul>
+<h3 id="advanced-features_4">Advanced Features<a class="headerlink" href="#advanced-features_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Image and video processing</li>
+<li>OCR for image-based announcements</li>
+<li>Multi-language support</li>
+<li>Mobile app with push notifications</li>
+<li>Chrome extension</li>
+<li>Webhook support for instant updates</li>
+</ul>
+<h3 id="expected-deliverables_4">Expected Deliverables<a class="headerlink" href="#expected-deliverables_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Working scraper for at least 3 sources</li>
+<li>Unified feed interface</li>
+<li>AI-generated daily digest</li>
+<li>Duplicate detection system</li>
+<li>Categorization working</li>
+<li>Minimum 50 sample announcements</li>
+</ul>
+<h3 id="bonus-features_4">Bonus Features<a class="headerlink" href="#bonus-features_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Real-time scraping with WebSocket updates</li>
+<li>Announcement prediction (based on patterns)</li>
+<li>Integration with calendar apps</li>
+<li>Voice announcement feature</li>
+<li>Accessibility features (text-to-speech)</li>
+<li>Admin moderation panel</li>
+</ul>
+<hr />
+<h2 id="problem-statement-36-open-innovation-level-3">Problem Statement 3.6: Open Innovation (Level 3)<a class="headerlink" href="#problem-statement-36-open-innovation-level-3" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> Free Choice</p>
+<h3 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
+<p>Propose and build an advanced system demonstrating complex system design, real-time features, or sophisticated integrations. This should be a production-grade solution addressing a significant problem.</p>
+<h3 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[x] Must involve advanced technical concepts (real-time, ML/NLP, security, etc.)</li>
+<li>[x] Should include background processing or complex integrations</li>
+<li>[x] Must demonstrate scalable architecture</li>
+<li>[x] Should have comprehensive documentation</li>
+<li>[x] Must address a real, significant problem</li>
+</ul>
+<h3 id="evaluation-focus">Evaluation Focus<a class="headerlink" href="#evaluation-focus" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Criteria</th>
+<th>What We Look For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Technical sophistication</td>
+<td>Advanced concepts properly implemented</td>
+</tr>
+<tr>
+<td>System architecture</td>
+<td>Scalable, well-designed</td>
+</tr>
+<tr>
+<td>Scalability &amp; performance</td>
+<td>Can handle real-world load</td>
+</tr>
+<tr>
+<td>Innovation &amp; uniqueness</td>
+<td>Novel approach</td>
+</tr>
+<tr>
+<td>Production-readiness</td>
+<td>Could be deployed today</td>
+</tr>
+<tr>
+<td>Real-world impact</td>
+<td>Solves a significant problem</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition success">
+<p class="admonition-title">Bonus Points</p>
+<ul>
+<li>Deployed/hosted application: <strong>+5%</strong></li>
+<li>Comprehensive test coverage: <strong>+5%</strong></li>
+<li>API documentation (Swagger/Postman): <strong>+3%</strong></li>
+<li>CI/CD pipeline: <strong>+3%</strong></li>
+<li>Exceptional UI/UX: <strong>+5%</strong></li>
+</ul>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Penalties</p>
+<ul>
+<li>Security vulnerabilities (SQL injection, XSS, etc.): <strong>-15%</strong></li>
+<li>No error handling: <strong>-10%</strong></li>
+<li>Hardcoded credentials: <strong>-10%</strong></li>
+<li>Copied code without attribution: <strong>-20%</strong></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/fossclub-saiu/ctrl_c_ctrl_v_hackathon/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:fossclub@saiuniversity.edu.in" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

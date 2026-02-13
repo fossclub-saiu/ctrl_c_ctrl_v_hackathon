@@ -1,0 +1,2348 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Problem Statements & Guidelines for the Ctrl C + Ctrl V Hackathon">
+      
+      
+        <meta name="author" content="FOSS Club">
+      
+      
+      
+        <link rel="prev" href="../level-1/">
+      
+      
+        <link rel="next" href="../level-3/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Level 2 (Second Year) - Ctrl C + Ctrl V Hackathon</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#level-2-second-year-students" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Ctrl C + Ctrl V Hackathon" class="md-header__button md-logo" aria-label="Ctrl C + Ctrl V Hackathon" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ctrl C + Ctrl V Hackathon
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Level 2 (Second Year)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../rules/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Rules
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../submission/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Submission
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../level-1/" class="md-tabs__link">
+          
+  
+  
+  Problem Statements
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../judging/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Judging Criteria
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../judges-guide/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Judges Guide
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../technical/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Technical Guidelines
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../faq/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Ctrl C + Ctrl V Hackathon" class="md-nav__button md-logo" aria-label="Ctrl C + Ctrl V Hackathon" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Ctrl C + Ctrl V Hackathon
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../submission/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Submission
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problem Statements
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Problem Statements
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 1 (First Year)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 2 (Second Year)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 2 (Second Year)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#technical-milestones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Milestones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-21-academic-planner-deadline-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.1: Academic Planner &amp; Deadline Tracker
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.1: Academic Planner &amp; Deadline Tracker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-22-ai-enhanced-resume-portfolio-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.2: AI-Enhanced Resume &amp; Portfolio Builder
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.2: AI-Enhanced Resume &amp; Portfolio Builder">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-23-campus-resource-booking-utilization-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.3: Campus Resource Booking &amp; Utilization Dashboard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.3: Campus Resource Booking &amp; Utilization Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-24-smart-campus-store-inventory-expiry-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.4: Smart Campus Store Inventory &amp; Expiry Tracker
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.4: Smart Campus Store Inventory &amp; Expiry Tracker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-25-digital-circular-notice-management-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.5: Digital Circular &amp; Notice Management Platform
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.5: Digital Circular &amp; Notice Management Platform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-26-open-innovation-level-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.6: Open Innovation (Level 2)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.6: Open Innovation (Level 2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation Focus
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 3 (Third Year)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../judging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Judging Criteria
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../judges-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Judges Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../technical/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Guidelines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#technical-milestones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Milestones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-21-academic-planner-deadline-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.1: Academic Planner &amp; Deadline Tracker
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.1: Academic Planner &amp; Deadline Tracker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-22-ai-enhanced-resume-portfolio-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.2: AI-Enhanced Resume &amp; Portfolio Builder
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.2: AI-Enhanced Resume &amp; Portfolio Builder">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-23-campus-resource-booking-utilization-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.3: Campus Resource Booking &amp; Utilization Dashboard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.3: Campus Resource Booking &amp; Utilization Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-24-smart-campus-store-inventory-expiry-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.4: Smart Campus Store Inventory &amp; Expiry Tracker
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.4: Smart Campus Store Inventory &amp; Expiry Tracker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-25-digital-circular-notice-management-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.5: Digital Circular &amp; Notice Management Platform
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.5: Digital Circular &amp; Notice Management Platform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-description_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-requirements_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-deliverables_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement-26-open-innovation-level-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement 2.6: Open Innovation (Level 2)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement 2.6: Open Innovation (Level 2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation Focus
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="level-2-second-year-students">Level 2: Second Year Students<a class="headerlink" href="#level-2-second-year-students" title="Permanent link">&para;</a></h1>
+<p><strong>Focus:</strong> Multi-module applications, proper database design, role-based access, and basic AI/ML integration.</p>
+<h2 id="technical-milestones">Technical Milestones<a class="headerlink" href="#technical-milestones" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[x] Complex database schemas with relationships</li>
+<li>[x] API development and consumption</li>
+<li>[x] User authentication and authorization</li>
+<li>[x] AI API integration</li>
+<li>[x] Data analytics and visualization</li>
+<li>[x] Workflow management</li>
+</ul>
+<hr />
+<h2 id="problem-statement-21-academic-planner-deadline-tracker">Problem Statement 2.1: Academic Planner &amp; Deadline Tracker<a class="headerlink" href="#problem-statement-21-academic-planner-deadline-tracker" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> Education + AI</p>
+<h3 id="problem-description">Problem Description<a class="headerlink" href="#problem-description" title="Permanent link">&para;</a></h3>
+<p>Students juggle multiple courses, assignments, and exams without a unified system. Build an intelligent academic planner that centralizes all academic commitments and provides smart scheduling assistance.</p>
+<h3 id="core-features">Core Features<a class="headerlink" href="#core-features" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>📚 Course management</td>
+<td>Add courses with credits, timings, venue, professor</td>
+</tr>
+<tr>
+<td>📝 Deadline tracker</td>
+<td>Assignment and exam deadlines with priority levels</td>
+</tr>
+<tr>
+<td>📅 Calendar view</td>
+<td>Weekly/monthly with color coding</td>
+</tr>
+<tr>
+<td>⏰ Smart reminders</td>
+<td>Based on deadline urgency</td>
+</tr>
+<tr>
+<td>📊 Workload heatmap</td>
+<td>Visual representation of busy vs free days</td>
+</tr>
+<tr>
+<td>🆓 Free slot identifier</td>
+<td>Find available time in daily schedule</td>
+</tr>
+<tr>
+<td>🤖 AI study plan generator</td>
+<td>Suggests study sessions in free slots</td>
+</tr>
+<tr>
+<td>⚡ Conflict detection</td>
+<td>Alert for overlapping events</td>
+</tr>
+<tr>
+<td>📈 Progress tracker</td>
+<td>Semester progress monitoring</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technical-requirements">Technical Requirements<a class="headerlink" href="#technical-requirements" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Complex database design (courses, assignments, exams, schedules)</li>
+<li>Time slot management algorithms</li>
+<li>AI API integration for study plan suggestions</li>
+<li>Calendar data structure and visualization</li>
+<li>Conflict detection logic</li>
+<li>Notification system</li>
+</ul>
+<h3 id="advanced-features">Advanced Features<a class="headerlink" href="#advanced-features" title="Permanent link">&para;</a></h3>
+<ul>
+<li>AI syllabus parsing (upload PDF, auto-extract topics and deadlines)</li>
+<li>What-if scenario analysis for grade prediction</li>
+<li>Google Calendar synchronization</li>
+<li>Collaborative scheduling (find common free slots with friends)</li>
+</ul>
+<h3 id="expected-deliverables">Expected Deliverables<a class="headerlink" href="#expected-deliverables" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Functional planner with at least 5 courses</li>
+<li>Working AI study plan generation</li>
+<li>Minimum 15 sample assignments/deadlines</li>
+<li>Conflict detection demonstration</li>
+</ul>
+<h3 id="bonus-features">Bonus Features<a class="headerlink" href="#bonus-features" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Pomodoro timer integration</li>
+<li>Productivity analytics dashboard</li>
+<li>Smart deadline prioritization algorithm</li>
+<li>Integration with LMS</li>
+<li>Mobile app version</li>
+</ul>
+<hr />
+<h2 id="problem-statement-22-ai-enhanced-resume-portfolio-builder">Problem Statement 2.2: AI-Enhanced Resume &amp; Portfolio Builder<a class="headerlink" href="#problem-statement-22-ai-enhanced-resume-portfolio-builder" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> Career + AI</p>
+<h3 id="problem-description_1">Problem Description<a class="headerlink" href="#problem-description_1" title="Permanent link">&para;</a></h3>
+<p>Students struggle to create professional resumes that pass ATS (Applicant Tracking Systems) and showcase their skills effectively. Build a comprehensive tool that generates ATS-friendly resumes and shareable portfolio links with AI-powered content optimization.</p>
+<h3 id="core-features_1">Core Features<a class="headerlink" href="#core-features_1" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>📄 Resume builder</td>
+<td>Multiple professional templates</td>
+</tr>
+<tr>
+<td>✏️ Section-wise input</td>
+<td>Personal info, education, experience, projects, skills, certifications</td>
+</tr>
+<tr>
+<td>🤖 AI content enhancement</td>
+<td>Improve bullet points, suggest action verbs, optimize phrasing</td>
+</tr>
+<tr>
+<td>✅ ATS checker</td>
+<td>Keyword analysis, format validation</td>
+</tr>
+<tr>
+<td>📊 Resume scoring</td>
+<td>Rate resume quality</td>
+</tr>
+<tr>
+<td>💼 Cover letter generator</td>
+<td>Based on job description + resume</td>
+</tr>
+<tr>
+<td>🔗 Portfolio website</td>
+<td>Shareable portfolio link</td>
+</tr>
+<tr>
+<td>📱 Version management</td>
+<td>Multiple resume versions</td>
+</tr>
+<tr>
+<td>📥 PDF export</td>
+<td>Clean formatting</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technical-requirements_1">Technical Requirements<a class="headerlink" href="#technical-requirements_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>AI API integration with well-crafted prompts</li>
+<li>PDF generation library</li>
+<li>Template system with responsive design</li>
+<li>ATS keyword extraction algorithm</li>
+<li>Version control for resumes</li>
+<li>Web hosting for portfolio links</li>
+</ul>
+<h3 id="advanced-features_1">Advanced Features<a class="headerlink" href="#advanced-features_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Job description analyzer (identifies required skills, suggests tweaks)</li>
+<li>Skill gap identification</li>
+<li>LinkedIn profile import</li>
+<li>Real-time ATS score as you type</li>
+<li>LaTeX template support</li>
+</ul>
+<h3 id="expected-deliverables_1">Expected Deliverables<a class="headerlink" href="#expected-deliverables_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Functional resume builder with 3+ templates</li>
+<li>Working AI content improvement</li>
+<li>ATS checker with score</li>
+<li>Shareable portfolio link</li>
+</ul>
+<h3 id="bonus-features_1">Bonus Features<a class="headerlink" href="#bonus-features_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Batch resume generation (different versions for different roles)</li>
+<li>Resume comparison tool</li>
+<li>Interview question predictor based on resume</li>
+<li>Salary estimator based on skills</li>
+<li>Export to JSON/YAML for developers</li>
+</ul>
+<hr />
+<h2 id="problem-statement-23-campus-resource-booking-utilization-dashboard">Problem Statement 2.3: Campus Resource Booking &amp; Utilization Dashboard<a class="headerlink" href="#problem-statement-23-campus-resource-booking-utilization-dashboard" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> College Utility</p>
+<h3 id="problem-description_2">Problem Description<a class="headerlink" href="#problem-description_2" title="Permanent link">&para;</a></h3>
+<p>Campus facilities like seminar halls, sports courts, and labs are often double-booked or underutilized. Create a centralized booking system with conflict prevention and usage analytics for administrators.</p>
+<h3 id="core-features_2">Core Features<a class="headerlink" href="#core-features_2" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🏢 Resource catalog</td>
+<td>Rooms, courts, labs, equipment with details, capacity, photos</td>
+</tr>
+<tr>
+<td>📅 Availability calendar</td>
+<td>Real-time hourly/half-hourly time slots</td>
+</tr>
+<tr>
+<td>✅ Conflict-free booking</td>
+<td>Prevents double-booking</td>
+</tr>
+<tr>
+<td>👤 User authentication</td>
+<td>Role-based access (student, faculty, admin)</td>
+</tr>
+<tr>
+<td>📋 Approval workflow</td>
+<td>Auto-approve or admin approval based on resource</td>
+</tr>
+<tr>
+<td>✏️ Booking management</td>
+<td>Modification and cancellation with rules</td>
+</tr>
+<tr>
+<td>📧 Confirmations</td>
+<td>Email/SMS confirmations and reminders</td>
+</tr>
+<tr>
+<td>📊 Admin dashboard</td>
+<td>Peak hours, idle time, most/least booked, department usage</td>
+</tr>
+<tr>
+<td>🚫 No-show tracking</td>
+<td>Track and penalize no-shows</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technical-requirements_2">Technical Requirements<a class="headerlink" href="#technical-requirements_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Time slot management algorithm</li>
+<li>Booking conflict prevention logic</li>
+<li>Role-based access control (RBAC)</li>
+<li>Email/notification system</li>
+<li>Analytics calculation and visualization</li>
+<li>Complex database schema</li>
+</ul>
+<h3 id="advanced-features_2">Advanced Features<a class="headerlink" href="#advanced-features_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Recurring booking support (e.g., weekly lab sessions)</li>
+<li>Waitlist management for fully booked slots</li>
+<li>QR code-based check-in system</li>
+<li>Mobile app for quick bookings</li>
+<li>Resource dependency (e.g., book projector with room)</li>
+</ul>
+<h3 id="expected-deliverables_2">Expected Deliverables<a class="headerlink" href="#expected-deliverables_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Functional booking system with 10+ resources</li>
+<li>Working conflict detection</li>
+<li>Admin dashboard with analytics</li>
+<li>Minimum 3 user roles implemented</li>
+</ul>
+<h3 id="bonus-features_2">Bonus Features<a class="headerlink" href="#bonus-features_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Predictive analytics (suggest best booking times)</li>
+<li>Integration with college calendar</li>
+<li>Automatic cancellation for no-shows</li>
+<li>Usage reports (PDF export)</li>
+<li>Resource maintenance scheduling</li>
+</ul>
+<hr />
+<h2 id="problem-statement-24-smart-campus-store-inventory-expiry-tracker">Problem Statement 2.4: Smart Campus Store Inventory &amp; Expiry Tracker<a class="headerlink" href="#problem-statement-24-smart-campus-store-inventory-expiry-tracker" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> Utility + ML</p>
+<h3 id="problem-description_3">Problem Description<a class="headerlink" href="#problem-description_3" title="Permanent link">&para;</a></h3>
+<p>Campus stores (stationery, mess, bookshops) face stock management challenges and wastage due to expiry. Build an intelligent inventory system with expiry tracking, low-stock alerts, and demand prediction.</p>
+<h3 id="core-features_3">Core Features<a class="headerlink" href="#core-features_3" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>📦 Item catalog</td>
+<td>Name, category, quantity, price, expiry date</td>
+</tr>
+<tr>
+<td>🚨 Expiry monitoring</td>
+<td>Color-coded alerts (🔴 7 days, 🟡 15 days, 🟢 Fresh)</td>
+</tr>
+<tr>
+<td>📉 Low-stock notifications</td>
+<td>Automatic alerts</td>
+</tr>
+<tr>
+<td>🔔 Reorder suggestions</td>
+<td>Based on consumption patterns</td>
+</tr>
+<tr>
+<td>📊 Consumption analytics</td>
+<td>Category-wise breakdown</td>
+</tr>
+<tr>
+<td>📈 Trend visualization</td>
+<td>Daily/weekly/monthly sales</td>
+</tr>
+<tr>
+<td>💰 Revenue tracking</td>
+<td>Track income</td>
+</tr>
+<tr>
+<td>🛒 Sales input interface</td>
+<td>Record consumption data</td>
+</tr>
+<tr>
+<td>📋 Admin dashboard</td>
+<td>Inventory insights</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technical-requirements_3">Technical Requirements<a class="headerlink" href="#technical-requirements_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Database design for inventory management</li>
+<li>Date calculations for expiry tracking</li>
+<li>Analytics and reporting</li>
+<li>Data visualization</li>
+<li>Alert/notification system</li>
+<li>Optional: Basic ML for demand prediction</li>
+</ul>
+<h3 id="advanced-features_3">Advanced Features<a class="headerlink" href="#advanced-features_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Stock prediction using time-series analysis</li>
+<li>Barcode scanning for quick updates</li>
+<li>Supplier management</li>
+<li>Purchase order generation</li>
+<li>Seasonal pattern detection</li>
+<li>Mobile app for stock updates</li>
+</ul>
+<h3 id="expected-deliverables_3">Expected Deliverables<a class="headerlink" href="#expected-deliverables_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Functional inventory system with 50+ items</li>
+<li>Working expiry tracking with alerts</li>
+<li>Consumption analytics dashboard</li>
+<li>Low-stock notification system</li>
+</ul>
+<h3 id="bonus-features_3">Bonus Features<a class="headerlink" href="#bonus-features_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>ML-based reorder point optimization</li>
+<li>Wastage reports (expired items)</li>
+<li>Multi-store support</li>
+<li>Integration with POS system</li>
+<li>Batch tracking (multiple batches per item)</li>
+</ul>
+<hr />
+<h2 id="problem-statement-25-digital-circular-notice-management-platform">Problem Statement 2.5: Digital Circular &amp; Notice Management Platform<a class="headerlink" href="#problem-statement-25-digital-circular-notice-management-platform" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> College Utility</p>
+<h3 id="problem-description_4">Problem Description<a class="headerlink" href="#problem-description_4" title="Permanent link">&para;</a></h3>
+<p>Important college announcements and circulars often get lost in email clutter or WhatsApp groups. Build a targeted announcement platform where admins can track engagement and ensure important information reaches the right audience.</p>
+<h3 id="core-features_4">Core Features<a class="headerlink" href="#core-features_4" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>📢 Circular creation</td>
+<td>Rich text editor</td>
+</tr>
+<tr>
+<td>🎯 Targeted distribution</td>
+<td>By department, year, role, groups/clubs</td>
+</tr>
+<tr>
+<td>✅ Read tracking</td>
+<td>Who has read, who hasn't</td>
+</tr>
+<tr>
+<td>📱 Push notifications</td>
+<td>Instant alerts</td>
+</tr>
+<tr>
+<td>🏷️ Priority tagging</td>
+<td>Urgent, informational, action-required</td>
+</tr>
+<tr>
+<td>📁 Searchable archive</td>
+<td>Past notices</td>
+</tr>
+<tr>
+<td>📊 Analytics dashboard</td>
+<td>Reach %, read rate, time to read, engagement</td>
+</tr>
+<tr>
+<td>📎 Attachments</td>
+<td>PDFs, images support</td>
+</tr>
+<tr>
+<td>💬 Comment section</td>
+<td>Feedback area</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technical-requirements_4">Technical Requirements<a class="headerlink" href="#technical-requirements_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Role-based access control (admin, user)</li>
+<li>Notification system (email, push, in-app)</li>
+<li>Full-text search implementation</li>
+<li>Read tracking mechanism</li>
+<li>Analytics calculation</li>
+<li>File upload and storage</li>
+</ul>
+<h3 id="advanced-features_4">Advanced Features<a class="headerlink" href="#advanced-features_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Auto-reminder for unread urgent notices</li>
+<li>Scheduled circular publishing</li>
+<li>Translation support for multiple languages</li>
+<li>Integration with college website</li>
+<li>SMS fallback for critical notices</li>
+</ul>
+<h3 id="expected-deliverables_4">Expected Deliverables<a class="headerlink" href="#expected-deliverables_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Functional platform with admin and user roles</li>
+<li>Minimum 20 sample circulars with different categories</li>
+<li>Working read tracking</li>
+<li>Analytics dashboard</li>
+</ul>
+<h3 id="bonus-features_4">Bonus Features<a class="headerlink" href="#bonus-features_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Digital signature for official circulars</li>
+<li>Version control for circular edits</li>
+<li>Circular templates for common types</li>
+<li>Export to PDF with distribution list</li>
+<li>Mobile app with offline reading</li>
+</ul>
+<hr />
+<h2 id="problem-statement-26-open-innovation-level-2">Problem Statement 2.6: Open Innovation (Level 2)<a class="headerlink" href="#problem-statement-26-open-innovation-level-2" title="Permanent link">&para;</a></h2>
+<p><strong>Category:</strong> Free Choice</p>
+<h3 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
+<p>Propose and build an advanced solution requiring meaningful data management, analytics, or AI integration. Your project should demonstrate multi-module thinking and system design capabilities.</p>
+<h3 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[x] Must involve complex data relationships</li>
+<li>[x] Should include analytics or AI features</li>
+<li>[x] Must have role-based access control</li>
+<li>[x] Should demonstrate proper system architecture</li>
+<li>[x] Must be scalable and well-documented</li>
+</ul>
+<h3 id="evaluation-focus">Evaluation Focus<a class="headerlink" href="#evaluation-focus" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Criteria</th>
+<th>What We Look For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>System design quality</td>
+<td>Is the architecture well thought out?</td>
+</tr>
+<tr>
+<td>Database schema</td>
+<td>Are relationships properly designed?</td>
+</tr>
+<tr>
+<td>Feature completeness</td>
+<td>Are all promised features working?</td>
+</tr>
+<tr>
+<td>Code architecture</td>
+<td>Is the code well organized?</td>
+</tr>
+<tr>
+<td>Real-world applicability</td>
+<td>Can this be used in practice?</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Penalties</p>
+<ul>
+<li>Over-reliance on AI-generated code without understanding: <strong>-10%</strong></li>
+<li>Poor database design (no normalization, bad relationships): <strong>-10%</strong></li>
+<li>Hardcoded values instead of configuration: <strong>-5%</strong></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/fossclub-saiu/ctrl_c_ctrl_v_hackathon/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:fossclub@saiuniversity.edu.in" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
